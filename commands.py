@@ -83,7 +83,7 @@ def complete_stage(stage_id, difficulty, kagi=None):
 
     enc_sign = cryption.encrypt_sign(sign)
 
-    # ## Send First Request
+    #Send First Request
 
     headers = {
         'User-Agent': config.user_agent,
